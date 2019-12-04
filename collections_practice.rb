@@ -33,6 +33,9 @@ end
 # use each to iterate and build a new array to return
 # array = ["blake", "ashley", "scott"]
 def kesha_maker(array)
+  new_array = []
   array.each do | dollar |
-
+    new_array << dollar + "$"
+  end
+  array
 end
