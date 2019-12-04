@@ -43,8 +43,14 @@ def kesha_maker(array)
   new_array
 end
 
+# find and return to a new array all strings starting with "a"
 def find_a(array)
   array.select do |letter|
     letter.start_with?("a")
   end
 end
+
+# adds together all of the integers in the array and returns their sum
+def sum_array(array)
+  
+end  
