@@ -56,7 +56,6 @@ def sum_array(array)
 end
 
 # add "s" to each word that isn't already a plural
-# ["hand","feet", "knee", "table"]
 def add_s(array)
   array.each_with_index.collect do |element, index|
     if index == 1
