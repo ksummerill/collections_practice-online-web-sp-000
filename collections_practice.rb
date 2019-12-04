@@ -44,11 +44,7 @@ def kesha_maker(array)
 end
 
 def find_a(array)
-  # a_array = []
   array.select do |letter|
     letter.start_with?("a")
-      # a_array << letter
-    # end
   end
-  # a_array
 end
