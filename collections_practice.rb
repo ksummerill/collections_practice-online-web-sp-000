@@ -62,7 +62,7 @@ def add_s(array)
     if index == 1
         element
     else element[element.length] = "s"
-        element    
+        element
     end
   end
 end
