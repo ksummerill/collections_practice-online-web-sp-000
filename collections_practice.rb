@@ -24,6 +24,16 @@ end
 #   array[0,2]
 # end
 
+# return reversed array
 def reverse_array(array)
   array.reverse
 end
+
+# replaces the third character in each string with a $
+# use each to iterate and build a new array to return
+# array = ["blake", "ashley", "scott"]
+def kesha_maker(array)
+  array.each do | dollar |
+    
+end  
+
