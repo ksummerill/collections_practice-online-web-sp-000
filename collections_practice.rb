@@ -52,5 +52,5 @@ end
 
 # adds together all of the integers in the array and returns their sum
 def sum_array(array)
-  array.inject
+  array.inject(0, :+)
 end
