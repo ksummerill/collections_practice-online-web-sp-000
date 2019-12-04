@@ -58,25 +58,12 @@ end
 # add "s" to each word that isn't already a plural
 # ["hand","feet", "knee", "table"]
 def add_s(array)
-  # new_array = []
-  array.each_with_index.collect{|element, index| }
+  new_array = []
+  array.collect do | plural |
     if plural[-1] != "s"
       new_array << plural + "s"
     else
-
+    end
   end
+  new_array
 end
-
-[1,2].each_with_index.collect{|element, index| }
-
-
-# def add_s(array)
-#   new_array = []
-#   array.collect do | plural |
-#     if plural[-1] != "s"
-#       new_array << plural + "s"
-#     else
-#     end
-#   end
-#   new_array
-# end
