@@ -35,7 +35,7 @@ end
 def kesha_maker(array)
   new_array = []
   array.each do | dollar |
-    new_array << dollar[2] + "$"
+    new_array << array.replace(dollar) + "$"
   end
   new_array
 end
