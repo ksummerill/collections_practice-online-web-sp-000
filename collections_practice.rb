@@ -45,7 +45,7 @@ end
 
 def find_a(array)
   a_array = []
-  array.find do |letter|
+  array.detect do |letter|
     if letter.start_with?("a")
       a_array << letter
     end
