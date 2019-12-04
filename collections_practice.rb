@@ -63,7 +63,7 @@ def add_s(array)
     if plural[-1] != "s"
       new_array << plural + "s"
     else
-    
+
   end
 end
 
