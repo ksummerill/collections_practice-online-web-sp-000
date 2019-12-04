@@ -49,6 +49,6 @@ def find_a(array)
     if letter.start_with?("a")
       a_array << letter
     end
-    a_array
   end
+  a_array
 end
