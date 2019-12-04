@@ -60,9 +60,9 @@ end
 def add_s(array)
   new_array = []
   array.collect do | plural |
-    if plural[-1] == "s"
-      return ?
-    else new_array << plural + "s"
+    if plural[-1] != "s"
+      new_array << plural + "s"
+    else 
     end  
   end
   new_array
