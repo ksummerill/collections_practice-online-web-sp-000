@@ -41,3 +41,5 @@ def kesha_maker(array)
   end
   new_array
 end
+
+dollar[0..position-1] + new_char + dollar[position+1..-1]
