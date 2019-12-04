@@ -36,7 +36,7 @@ end
 def kesha_maker(array)
   new_array = []
   new_char = "$"
-  position = 3
+  position = 2
   array.each do | dollar |
     new_array << dollar[0..position-1] + new_char + dollar[position+1..-1]
   end
